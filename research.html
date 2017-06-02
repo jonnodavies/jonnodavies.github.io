@@ -7,6 +7,7 @@
 
 body { 
 font-family: "Verdana";
+font-size: 15px;
 margin-top: 50px;
 margin-bottom: 300px;
 margin-left: 100px;
@@ -18,12 +19,22 @@ table {
 	height: 50px;
 }
 
+table#posters {
+    width: 100%;    
+    border: none;
+}
+
+table#footer {
+	width: 100%;
+	border: none;
+}
+
 td {
 	padding: 20px;
 }
 
 p {
-	padding: 5px;
+	padding: 10px;
 }
 
 </style>
@@ -42,19 +53,48 @@ p {
 
 <a href="/William%20X.%20Q.%20Ngiam%20Curriculum%20Vita.pdf"> CV</a>
 
-&emsp; Research &emsp;
+&emsp; <b>Research</b> &emsp;
 
-<a href="mailto:william.ngiam@sydney.edu.au"> Email </a></td>
+<a href="mailto:william.ngiam@sydney.edu.au"> Email</a></td>
 </tr>
 </table>
 </header>
 
-<!-- This controls the body of text on the homepage.-->
+<!-- This controls the body of text on the research page.-->
 <body>
-
-<h3><ul>Posters</ul></h3>
-
-<b><ul>VSS 2017</b></ul> &emsp; Memory compression using statistical regularities requires explicit awareness. <a href="/VSS%202017%20Poster.pdf">PDF</a>
-
+<p>
+<b><u><font size="+1">Posters</font></u></b>
+<table id="posters" style="width:100%">
+<tr>
+<td><u> VSS 2017</u></td>
+<td>Memory compression using statistical regularities requires explicit awareness. <a href="/VSS%202017%20Poster.pdf">PDF</a></td>
+</tr>
+<tr>
+<td><u> Psychonomics 2016</u></td> 
+<td>Familiarity, but not visual complexity, affects letter encoding in visual working memory. <a href="/Psychonomics%202016.pdf">PDF</a></td>
+</tr>
+</table>
+</p>
 </body>
+
+<!--This controls the footer of the research webpage.-->
+<footer>
+<table id="footer" style="width:100%">
+<tr>
+<td> <font color="darkgray" size="2"><b> William X. Q. Ngiam </b></td>
+<td align="center">
+<!--For the github-->
+<a target="_blank" title="Github" href="http://www.github.com/WilliamNgiam"><img alt="follow me on github" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" style="width:40px;height:40px" border=0></a>&emsp;
+<!--For the OSF-->
+<a target="_blank" title="OSF" href="https://osf.io/profile/"><img alt="follow me on github" src="https://cdn.cos.io/media/images/cos_center_logo_small.original.png" style="width:40px;height:40px" border=0></a>&emsp;
+<!--For the insta-->
+<a target="_blank" title="Instagram" href="http://www.instagram.com/will_ngiam"><img alt="follow me on instagram" src="https://instagram-brand.com/wp-content/uploads/2016/11/app-icon2.png" style="width:40px;height:40px" border=0></a>&emsp;
+<!--For the twitter-->
+<a target="_blank" title="Twitter" href="http://www.twitter.com/will_ngiam"><img alt="follow me on twitter" src="https://c866088.ssl.cf3.rackcdn.com/assets/twitter40x40.png" border=0></a> 
+</td>
+<td align="right"> <font size="2" color="darkgray">Last updated: June 2017</td>
+</tr>
+</font>
+</table>
+</footer>
 </html>
